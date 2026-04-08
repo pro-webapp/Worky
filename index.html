@@ -1553,16 +1553,16 @@
   // ⚠️ REPLACE THESE VALUES WITH YOUR FIREBASE PROJECT CONFIG ⚠️
   // Get from: Firebase Console → Project Settings → Your Apps
   // ============================================================
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js";
   import {
     getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,
     signOut, onAuthStateChanged, updateProfile
-  } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+  } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js";
   import {
     getFirestore, collection, doc, addDoc, setDoc, getDocs,
     updateDoc, deleteDoc, query, where, orderBy, onSnapshot,
     serverTimestamp, getDoc
-  } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+  } from "https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js";
 
   // 🔧 YOUR FIREBASE CONFIG HERE
   const firebaseConfig = {
